@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="testUtils.Listeners"/>
+	</listeners>
+	<test thread-count="5" name="Test1VerifyPriceSum">
+		<classes>
+			<class name="eCommerce.Test1" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="HomePageScenarios">
+		<classes>
+			<class name="eCommerce.Test2" />
+		</classes>
+	</test>
+	<test thread-count="5" name="SwitchToBrowser">
+		<classes>
+			<class name="eCommerce.Test3Browser" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

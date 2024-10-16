@@ -1,0 +1,7 @@
+Appium Inspector
+
+
+app - C:\Users\Karthik\eclipse-workspace\AppiumProject\src\test\java\resources\ApiDemos-debug.apk
+deviceName - Pixel 4a
+platformName - Android
+automationName - UIAutomator2

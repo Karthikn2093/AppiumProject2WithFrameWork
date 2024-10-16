@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Tim",
+        "Gender": "male",
+        "country":"Albania"
+    },{
+        "name": "Burton",
+        "Gender": "female",
+        "country":"Argentina"
+    }
+]
